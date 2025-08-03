@@ -429,6 +429,7 @@ footer {
 .social-links {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 2rem;
   margin-top: 1rem;
 }
@@ -437,10 +438,13 @@ footer {
   color: #667eea;
   font-size: 1.5rem;
   transition: transform 0.3s ease;
+  text-decoration: none;
 }
 
-.social-links a:hover {
-  transform: scale(1.2);
+.social-links span {
+  color: black;
+  font-size: medium;
+  margin-left: 8px;
 }
 
 @media (max-width: 768px) {
