@@ -362,7 +362,7 @@ h2::after {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 1rem;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .project-link:hover {
